@@ -12,7 +12,7 @@ Notes:
    CVXOPT must be custom built as per the instructions on 
    cvxopt.org to interface with GLPK.
 ________________________________________________________________________________
-      (c) 2015, T. Kam. Email: tcy.kam@gmail.com
+      (c) 2013--, T. Kam. Email: tcy.kam@gmail.com
 
 CHANGELOG: Implemented Algorithm 3 (inner approx) from JYC. 
 Previous version of admit_inner() was a cruder discretized version.
