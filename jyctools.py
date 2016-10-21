@@ -2,14 +2,20 @@
 JYC.PY
 --------------------------------------------------------------------------------
 Class definining "Admissibility" via outer and inner approximation schemes.
+Prepared for ECON8001 Topics in Economic Dynamics taught at the ANU School 
+of Economics.
 
 Notes:
 --------------------------------------------------------------------------------
-   See Judd, Yeltekin and Conklin (2003, Econometrica). Requires CVXOPT and GLPK   interface, and, MPI4PY. CVXOPT must be custom built as per the instructions on cvxopt.org to interface with GLPK.
+   See Judd, Yeltekin and Conklin (2003, Econometrica). 
+   Requires CVXOPT and GLPK   interface, and, MPI4PY. 
+   CVXOPT must be custom built as per the instructions on 
+   cvxopt.org to interface with GLPK.
 ________________________________________________________________________________
       (c) 2015, T. Kam. Email: tcy.kam@gmail.com
 
-CHANGELOG: Implemented Algorithm 3 (inner approx) from JYC. Previous version of admit_inner() was a cruder discretized version.
+CHANGELOG: Implemented Algorithm 3 (inner approx) from JYC. 
+Previous version of admit_inner() was a cruder discretized version.
 """
 import numpy as np
 import scipy.spatial as SpySpatial
